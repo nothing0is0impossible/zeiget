@@ -4,7 +4,7 @@ body {
   color: #555555; }
 
 .inh_centered_resp, .zg-header--topbar__container, .zg-header--logo, .zg-header--nav {
-  max-width: 978px !important;
+  max-width: 1200px !important;
   margin: 0 auto !important; }
 
 .zg-header {
@@ -21,6 +21,12 @@ body {
       padding: 18px;
       display: flex;
       justify-content: space-between; }
+      @media screen and (min-width: 1000px) and (max-width: 1200px) {
+        .zg-header--topbar__container {
+          max-width: 1000px !important; } }
+      @media screen and (max-width: 1000px) {
+        .zg-header--topbar__container {
+          display: none; } }
     .zg-header--topbar__item {
       padding: 0 15px; }
       .zg-header--topbar__item:not(:last-child) {

@@ -4,7 +4,7 @@ body
   color: #555555
 
 .inh_centered_resp
-  max-width: 978px !important
+  max-width: 1200px !important
   margin: 0 auto !important
 
 .zg-header
@@ -19,6 +19,10 @@ body
   &--topbar
     background-color: #f6f6f6
     &__container
+      @media screen and (min-width: 1000px) and (max-width: 1200px)
+        max-width: 1000px !important
+      @media screen and (max-width: 1000px)
+        display: none
       @extend .inh_centered_resp
       padding: 18px
       display: flex
