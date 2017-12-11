@@ -1,0 +1,46 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  color: #555555; }
+
+.inh_centered_resp, .zg-header--topbar__container, .zg-header--logo, .zg-header--nav {
+  max-width: 978px !important;
+  margin: 0 auto !important; }
+
+.zg-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 10000;
+  height: 230px; }
+  .zg-header--topbar {
+    background-color: #f6f6f6; }
+    .zg-header--topbar__container {
+      padding: 18px;
+      display: flex;
+      justify-content: space-between; }
+    .zg-header--topbar__item {
+      padding: 0 15px; }
+      .zg-header--topbar__item:not(:last-child) {
+        border-right: 1px solid #d3d3d3; }
+      .zg-header--topbar__item svg {
+        margin-right: 5px; }
+  .zg-header--logo {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center; }
+  .zg-header--nav {
+    display: flex;
+    justify-content: center; }
+    .zg-header--nav__container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 420px; }
+      .zg-header--nav__container span {
+        -webkit-font-smoothing: antialiased;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase; }

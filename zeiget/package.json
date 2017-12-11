@@ -1,0 +1,20 @@
+{
+  "name": "zeiget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass public/sass/zeit.sass public/dist/zeit.css & node server",
+    "dev": "node-sass -w public/sass/ -o public/dist/ & nodemon --watch ./public/js server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.12.5"
+  }
+}

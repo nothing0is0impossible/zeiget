@@ -1,0 +1,57 @@
+body
+  font-family: 'Dosis', sans-serif
+  margin: 0
+  color: #555555
+
+.inh_centered_resp
+  max-width: 978px !important
+  margin: 0 auto !important
+
+.zg-header
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  background: #fff
+  z-index: 10000
+  height: 230px
+
+  &--topbar
+    background-color: #f6f6f6
+    &__container
+      @extend .inh_centered_resp
+      padding: 18px
+      display: flex
+      justify-content: space-between
+
+    &__item
+      padding: 0 15px
+
+      &:not(:last-child)
+        border-right: 1px solid #d3d3d3
+      svg
+        margin-right: 5px
+
+  &--logo
+    @extend .inh_centered_resp
+
+    padding: 40px 0
+    display: flex
+    justify-content: center
+
+  &--nav
+    @extend .inh_centered_resp
+    display: flex
+    justify-content: center
+
+    &__container
+      display: flex
+      justify-content: space-between
+      max-width: 420px
+
+      span
+        -webkit-font-smoothing: antialiased
+        padding: 10px 20px
+        font-size: 16px
+        font-weight: 600
+        text-transform: uppercase
